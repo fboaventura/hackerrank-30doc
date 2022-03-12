@@ -8,7 +8,7 @@ import sys
 
 
 if __name__ == '__main__':
-    n = int(input())
+    n = int(input("Which number? ").strip())
 
     for i in range(1, 11):
-        print(f'{n} x {i} = {n*i}')
+        print(f' {n:2d} x {i:2} = {n*i:3d}')
